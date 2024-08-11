@@ -62,6 +62,7 @@
 | [storage\_account\_id](#output\_storage\_account\_id) | The ID of the storage account |
 
 # Beforehand you'll need to create a new Resource Group or use an existing one
+```hcl
 resource "azurerm_resource_group" "rg" {
   name     = "test-sa-rg"
   location = "westeurope"
