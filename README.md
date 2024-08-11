@@ -77,7 +77,6 @@ resource "azurerm_resource_group" "rg" {
 }
 
 ## Usage
-```hcl
 module "storage_account" {
   source = "../.."
 
